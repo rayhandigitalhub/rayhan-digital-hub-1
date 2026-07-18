@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap for Rayhan Digital Hub (https://www.rayhandigitalhub.com).
+
+  This is a one-page site. In-page anchors (e.g. /#services) are NOT
+  listed as separate <url> entries: search engines resolve a fragment
+  identifier to the same document as the base URL, so anchor "pages"
+  provide no additional indexable value and read as duplicate-content
+  entries to crawlers. Only the single canonical document URL belongs
+  here.
+
+  If content is later split into real routes (e.g. after a Headless
+  WordPress migration for /blog/[slug]), add one <url> entry per real
+  route here and regenerate this file from siteConfig + the CMS post
+  list.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.rayhandigitalhub.com/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

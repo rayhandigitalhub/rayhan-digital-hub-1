@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f59e0b" />
+
+    <!--
+      These tags are static duplicates of what <Seo /> (in src/App.jsx)
+      also sets at runtime via JavaScript. That's intentional, not
+      redundant: search engine bots generally do execute JS before
+      indexing, but most social-media link-preview crawlers (Facebook,
+      WhatsApp, LinkedIn, Twitter/X, Slack, Discord) do NOT run JS — they
+      only read whatever is already in this static HTML. Without these,
+      shared links would show no title/description/image at all.
+
+      If you change brand/seo values in src/siteConfig.js, update the
+      matching values below too, so both stay in sync.
+    -->
+    <title>Rayhan Ahmed | SEO Expert & Digital Marketing Specialist in Dhaka</title>
+    <meta
+      name="description"
+      content="Rayhan Ahmed, founder of Rayhan Digital Hub, is an SEO expert and digital marketing specialist helping brands and personal labels grow through data-driven SEO, paid ads, and social media strategy."
+    />
+    <meta name="author" content="Rayhan Ahmed" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.rayhandigitalhub.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Rayhan Ahmed | SEO Expert & Digital Marketing Specialist in Dhaka" />
+    <meta
+      property="og:description"
+      content="Rayhan Ahmed, founder of Rayhan Digital Hub, is an SEO expert and digital marketing specialist helping brands and personal labels grow through data-driven SEO, paid ads, and social media strategy."
+    />
+    <meta property="og:url" content="https://www.rayhandigitalhub.com/" />
+    <meta property="og:image" content="https://www.rayhandigitalhub.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Rayhan Digital Hub" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Rayhan Ahmed | SEO Expert & Digital Marketing Specialist in Dhaka" />
+    <meta
+      name="twitter:description"
+      content="Rayhan Ahmed, founder of Rayhan Digital Hub, is an SEO expert and digital marketing specialist helping brands and personal labels grow through data-driven SEO, paid ads, and social media strategy."
+    />
+    <meta name="twitter:image" content="https://www.rayhandigitalhub.com/og-image.jpg" />
+    <meta name="twitter:site" content="@rayhandigitalhub" />
+
+    <!-- Favicons — generated to match the amber/rose brand monogram. -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
