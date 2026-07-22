@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { AnimatePresence, motion, useInView, MotionConfig } from "framer-motion";
+import MagneticLogo from "./components/MagneticLogo";
 import {
   Menu,
   Moon,
