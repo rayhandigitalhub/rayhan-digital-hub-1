@@ -13,7 +13,7 @@ export const siteConfig = {
   brand: {
     name: "Rayhan Ahmed",
     business: "Rayhan Digital Hub",
-    initials: "/profesinal-DP.png",
+    initials: "RA",
     roles: [
       "SEO Expert",
       "Digital Marketing Specialist",
