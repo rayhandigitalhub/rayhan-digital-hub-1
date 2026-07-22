@@ -13,7 +13,7 @@ export const siteConfig = {
   brand: {
     name: "Rayhan Ahmed",
     business: "Rayhan Digital Hub",
-    initials: "RA",
+    initials: "src/components/MagneticLogo.jsx",
     roles: [
       "SEO Expert",
       "Digital Marketing Specialist",
