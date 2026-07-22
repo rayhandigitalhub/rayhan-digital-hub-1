@@ -32,11 +32,11 @@ export const siteConfig = {
   // so there is exactly one place to update a phone number or address.
   // -------------------------------------------------------------------
   contact: {
-    email: "hello@rayhandigitalhub.com",
-    phoneDisplay: "+880 1712-345678",
-    phoneHref: "+8801712345678",
-    whatsappNumber: "8801712345678",
-    whatsappDisplay: "+880 1712-345678",
+    email: "info@digitalhub.com",
+    phoneDisplay: "+880 18654-16597",
+    phoneHref: "+880 18654-16597",
+    whatsappNumber: "+880 18654-16597",
+    whatsappDisplay: "+880 18654-16597",
     address: {
       line1: "Road 15, Dhanmondi",
       line2: "Dhaka 1209, Bangladesh",
@@ -66,20 +66,20 @@ export const siteConfig = {
     {
       key: "facebook",
       label: "Facebook",
-      handle: "/RayhanDigitalHub",
+      handle: "Rayhan Ahmed",
       href: "https://facebook.com/RayhanDigitalHub",
     },
     {
       key: "linkedin",
       label: "LinkedIn",
-      handle: "/in/rayhan-ahmed",
-      href: "https://linkedin.com/in/rayhan-ahmed",
+      handle: "Rayhan Ahmed",
+      href: "https://bd.linkedin.com/in/rayhandigitalhub",
     },
     {
       key: "instagram",
       label: "Instagram",
       handle: "@rayhandigitalhub",
-      href: "https://instagram.com/rayhandigitalhub",
+      href: "https://www.instagram.com/rayhandigitalhub/",
     },
     {
       key: "whatsapp",
