@@ -15,15 +15,25 @@ export const siteConfig = {
     business: "Rayhan Digital Hub",
     initials: "RA",
     roles: [
-      "SEO Expert",
-      "Digital Marketing Specialist",
-      "Social Media Marketing Specialist",
-    ],
-    foundedYear: 2021,
-    shortPitch:
-      "I plan and run SEO, paid media, and social strategy for brands that are done guessing. Every campaign is built around one question: does this move pipeline, not just impressions.",
-    longBio:
-      "I'm Rayhan Ahmed, founder of Rayhan Digital Hub and a digital marketing specialist with 5+ years of hands-on experience helping businesses and personal brands grow online. I specialize in SEO, paid advertising, and social media marketing — combining data-driven strategy with genuine care for every client's goals, so results translate into real revenue, not just vanity metrics.",
+    {/* Brand Initials / Logo */}
+<a
+  href="#home"
+  className="relative z-10 flex h-11 w-11 items-center justify-center rounded-2xl bg-amber-400 font-serif text-lg font-bold text-neutral-950 shadow-lg shadow-amber-500/20 transition-transform duration-300 hover:scale-105 active:scale-95"
+  aria-label="Home"
+>
+  {siteConfig.brand.initials}
+</a>
+  {/* Brand Initials / Logo */}
+<MagneticLogo />
+      // "SEO Expert",
+     // "Digital Marketing Specialist",
+     // "Social Media Marketing Specialist",
+  //  ],
+   // foundedYear: 2021,
+   // shortPitch:
+    //  "I plan and run SEO, paid media, and social strategy for brands that are done guessing. Every campaign is built around one question: does this move pipeline, not just impressions.",
+ //   longBio:
+     // "I'm Rayhan Ahmed, founder of Rayhan Digital Hub and a digital marketing specialist with 5+ years of hands-on experience helping businesses and personal brands grow online. I specialize in SEO, paid advertising, and social media marketing — combining data-driven strategy with genuine care for every client's goals, so results translate into real revenue, not just vanity metrics.",
   },
 
   // -------------------------------------------------------------------
