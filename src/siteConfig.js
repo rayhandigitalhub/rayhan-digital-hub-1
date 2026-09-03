@@ -12,6 +12,7 @@
 export const siteConfig = {
   brand: {
     name: "Rayhan Ahmed",
+    alternateNames: ["Rayhan", "Rayhan Ahmed Bijoy", "Rayhan Digital Hub"],
     business: "Rayhan Digital Hub",
     initials: "RA",
     roles: [
@@ -73,7 +74,7 @@ export const siteConfig = {
       key: "linkedin",
       label: "LinkedIn",
       handle: "Rayhan Ahmed",
-      href: "https://bd.linkedin.com/in/rayhandigitalhub",
+      href: "https://www.linkedin.com/in/rayhandigitalhub/",
     },
     {
       key: "instagram",
@@ -105,19 +106,24 @@ export const siteConfig = {
   // the Person + ProfessionalService JSON-LD schema.
   // -------------------------------------------------------------------
   seo: {
-    siteUrl: "https://www.rayhandigitalhub.com",
+    siteUrl: "https://rayhandigitalhub.vercel.app",
+    profileUrl: "https://rayhandigitalhub.vercel.app/rayhan-ahmed/",
     title:
-      "Rayhan Ahmed | SEO Expert & Digital Marketing Specialist in Dhaka",
+      "Rayhan Ahmed (Rayhan Ahmed Bijoy) | SEO Expert & Digital Marketing Specialist",
     description:
-      "Rayhan Ahmed, founder of Rayhan Digital Hub, is an SEO expert and digital marketing specialist helping brands and personal labels grow through data-driven SEO, paid ads, and social media strategy.",
+      "Rayhan Ahmed, also known as Rayhan Ahmed Bijoy, is the founder of Rayhan Digital Hub and a digital marketing specialist helping brands and personal brands grow through SEO, paid ads, and social media strategy.",
     keywords: [
       "SEO expert Dhaka",
       "digital marketing specialist Bangladesh",
       "social media marketing specialist",
       "Rayhan Digital Hub",
+      "Rayhan",
+      "Rayhan Ahmed",
+      "Rayhan Ahmed Bijoy",
+      "Rayhan Ahmed Bangladesh",
       "personal branding agency Dhaka",
     ],
-    ogImage: "https://www.rayhandigitalhub.com/og-image.jpg",
+    ogImage: "https://rayhandigitalhub.vercel.app/rayhan-profile.jpg",
     twitterHandle: "@rayhandigitalhub",
     locale: "en_US",
     themeColor: "#f59e0b",
