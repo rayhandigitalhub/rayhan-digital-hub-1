@@ -925,7 +925,7 @@ function Hero({ isDark }) {
               }
             >
               <img
-                src={isDark ? "/profesinal-DP.png" : "/rayhan-profile.jpg"}
+                src={isDark ? "/rayhan-profile-dark.jpg" : "/rayhan-profile.jpg"}
                 alt="Rayhan Ahmed"
                 className="block h-full w-full object-cover object-center"
               />
@@ -1900,7 +1900,7 @@ function About({ isDark }) {
             >
               <div className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-br from-amber-400 to-rose-500 text-xl font-extrabold text-white">
                 <img
-                  src={isDark ? "/profesinal-DP.png" : "/rayhan-profile.jpg"}
+                  src={isDark ? "/rayhan-profile-dark.jpg" : "/rayhan-profile.jpg"}
                   alt="Rayhan Ahmed"
                   className="block h-full w-full rounded-2xl object-cover object-center"
                 />
