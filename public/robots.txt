@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.rayhandigitalhub.com/sitemap.xml
+Sitemap: https://rayhandigitalhub.vercel.app/sitemap.xml
