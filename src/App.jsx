@@ -1895,12 +1895,8 @@ function About({ isDark }) {
               transition={{ duration: 0.6, ease: "easeOut" }}
               className="flex items-center gap-4"
             >
-              <div className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-br from-amber-400 to-rose-500 text-xl font-extrabold text-white">
+              <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-400 to-rose-500 text-xl font-extrabold text-white">
                 <img
-                  src="/rayhan-profile.jpg"
-                  alt="Rayhan Ahmed"
-                  className="h-full w-full rounded-2xl object-cover"
-                />
               </div>
               <div>
                 <p className={"font-bold " + (isDark ? "text-white" : "text-neutral-900")}>{siteConfig.brand.name}</p>
@@ -3037,8 +3033,12 @@ function Footer({ isDark }) {
               onClick={(e) => scrollTo(e, "home")}
               className="flex items-center gap-3"
             >
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-amber-400 to-rose-500 text-sm font-extrabold text-white">
-                <img                src="/rayhan-profile.jpg"
+              <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-amber-400 to-rose-500 text-sm font-extrabold text-white">
+                <img
+                  src="/rayhan-profile.jpg"
+                  alt="Rayhan Ahmed"
+                  className="h-full w-full rounded-xl object-cover"
+                />
               </div>
               <div className="flex flex-col leading-tight">
                 <span className={"text-base font-extrabold " + (isDark ? "text-white" : "text-neutral-900")}>
