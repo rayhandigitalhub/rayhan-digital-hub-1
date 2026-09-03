@@ -924,8 +924,11 @@ function Hero({ isDark }) {
                 (isDark ? "bg-neutral-950/95" : "bg-white/95")
               }
             >
-              
-                                <img                src="/rayhan-profile.jpg"                alt="Rayhan Ahmed" />
+              <img
+                src={isDark ? "/profesinal-DP.png" : "/rayhan-profile.jpg"}
+                alt="Rayhan Ahmed"
+                className="block h-full w-full object-cover object-center"
+              />
             </div>
 
             {/* Floating badge — ranking */}
@@ -1897,9 +1900,9 @@ function About({ isDark }) {
             >
               <div className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-br from-amber-400 to-rose-500 text-xl font-extrabold text-white">
                 <img
-                  src="/rayhan-profile.jpg"
+                  src={isDark ? "/profesinal-DP.png" : "/rayhan-profile.jpg"}
                   alt="Rayhan Ahmed"
-                  className="h-full w-full rounded-2xl object-cover"
+                  className="block h-full w-full rounded-2xl object-cover object-center"
                 />
               </div>
               <div>
