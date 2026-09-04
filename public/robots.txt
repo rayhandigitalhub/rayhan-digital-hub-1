@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://rayhandigitalhub.vercel.app/sitemap.xml
+Sitemap: https://rayhandigitalhub.vercel.app/image-sitemap.xml
