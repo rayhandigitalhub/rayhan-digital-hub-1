@@ -24,7 +24,7 @@ export const siteConfig = {
     shortPitch:
       "I plan and run SEO, paid media, and social strategy for brands that are done guessing. Every campaign is built around one question: does this move pipeline, not just impressions.",
     longBio:
-      "I'm Rayhan Ahmed, founder of Rayhan Digital Hub and a digital marketing specialist with 5+ years of hands-on experience helping businesses and personal brands grow online. I specialize in SEO, paid advertising, and social media marketing — combining data-driven strategy with genuine care for every client's goals, so results translate into real revenue, not just vanity metrics.",
+      "I'm Rayhan Ahmed, founder of Rayhan Digital Hub and a Bangladesh-based digital marketing specialist. I focus on SEO, paid advertising, social media marketing, and personal branding to help businesses and personal brands grow online with clear, practical strategy.",
   },
 
   // -------------------------------------------------------------------
