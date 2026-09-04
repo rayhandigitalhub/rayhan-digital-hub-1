@@ -931,7 +931,7 @@ function Hero({ isDark }) {
             >
               <img
                 src={isDark ? "/rayhan-profile-dark.jpg" : "/rayhan-profile.jpg"}
-                alt="Rayhan Ahmed"
+                alt="Rayhan Ahmed Bijoy"
                 className="block h-full w-full object-cover object-center"
               />
             </div>
@@ -1906,7 +1906,7 @@ function About({ isDark }) {
               <div className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-br from-amber-400 to-rose-500 text-xl font-extrabold text-white">
                 <img
                   src={isDark ? "/rayhan-profile-dark.jpg" : "/rayhan-profile.jpg"}
-                  alt="Rayhan Ahmed"
+                  alt="Rayhan Ahmed Bijoy"
                   className="block h-full w-full rounded-2xl object-cover object-center"
                 />
               </div>
@@ -3048,7 +3048,7 @@ function Footer({ isDark }) {
               <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-amber-400 to-rose-500 text-sm font-extrabold text-white">
                 <img
                   src="/rayhan-profile.jpg"
-                  alt="Rayhan Ahmed"
+                  alt="Rayhan Ahmed Bijoy"
                   className="h-full w-full rounded-xl object-cover"
                 />
               </div>
