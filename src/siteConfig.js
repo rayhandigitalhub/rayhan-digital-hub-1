@@ -1,6 +1,4 @@
-    {
-      key: "whatsapp",
-      label: "WhatsApp",// ---------------------------------------------------------------------
+// ---------------------------------------------------------------------
 // siteConfig.js
 //
 // Single source of truth for brand, contact, social, navigation, and
@@ -83,6 +81,18 @@ export const siteConfig = {
       label: "Instagram",
       handle: "@rayhandigitalhub",
       href: "https://www.instagram.com/rayhandigitalhub/",
+    },
+    {
+      key: "youtube",
+      label: "YouTube",
+      handle: "RAYHAN AHMED BIJOY",
+      href: "https://www.youtube.com/@Rayhanahmedbijoy55",
+    },
+    {
+      key: "github",
+      label: "GitHub",
+      handle: "@rayhandigitalhub",
+      href: "https://github.com/rayhandigitalhub",
     },
     {
       key: "whatsapp",
