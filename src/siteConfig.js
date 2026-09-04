@@ -11,8 +11,8 @@
 
 export const siteConfig = {
   brand: {
-    name: "Rayhan Ahmed",
-    alternateNames: ["Rayhan", "Rayhan Ahmed Bijoy", "Rayhan Digital Hub"],
+    name: "Rayhan Ahmed Bijoy",
+    alternateNames: ["Rayhan Ahmed Bijoy"],
     business: "Rayhan Digital Hub",
     initials: "RA",
     roles: [
@@ -24,7 +24,7 @@ export const siteConfig = {
     shortPitch:
       "I plan and run SEO, paid media, and social strategy for brands that are done guessing. Every campaign is built around one question: does this move pipeline, not just impressions.",
     longBio:
-      "I'm Rayhan Ahmed, founder of Rayhan Digital Hub and a Bangladesh-based digital marketing specialist. I focus on SEO, paid advertising, social media marketing, and personal branding to help businesses and personal brands grow online with clear, practical strategy.",
+      "I'm Rayhan Ahmed Bijoy, founder of Rayhan Digital Hub and a Bangladesh-based digital marketing specialist. I focus on SEO, paid advertising, social media marketing, and personal branding to help businesses and personal brands grow online with clear, practical strategy.",
   },
 
   // -------------------------------------------------------------------
@@ -67,13 +67,13 @@ export const siteConfig = {
     {
       key: "facebook",
       label: "Facebook",
-      handle: "Rayhan Ahmed",
+      handle: "Rayhan Ahmed Bijoy",
       href: "https://facebook.com/RayhanDigitalHub",
     },
     {
       key: "linkedin",
       label: "LinkedIn",
-      handle: "Rayhan Ahmed",
+      handle: "Rayhan Ahmed Bijoy",
       href: "https://www.linkedin.com/in/rayhandigitalhub/",
     },
     {
@@ -121,18 +121,15 @@ export const siteConfig = {
     siteUrl: "https://rayhandigitalhub.vercel.app",
     profileUrl: "https://rayhandigitalhub.vercel.app/rayhan-ahmed/",
     title:
-      "Rayhan Ahmed (Rayhan Ahmed Bijoy) | SEO Expert & Digital Marketing Specialist",
+      "Rayhan Ahmed Bijoy | SEO Expert & Digital Marketing Specialist",
     description:
-      "Rayhan Ahmed, also known as Rayhan Ahmed Bijoy, is the founder of Rayhan Digital Hub and a digital marketing specialist helping brands and personal brands grow through SEO, paid ads, and social media strategy.",
+      "Rayhan Ahmed Bijoy is the founder of Rayhan Digital Hub and a digital marketing specialist helping brands and personal brands grow through SEO, paid ads, and social media strategy.",
     keywords: [
       "SEO expert Dhaka",
       "digital marketing specialist Bangladesh",
       "social media marketing specialist",
       "Rayhan Digital Hub",
-      "Rayhan",
-      "Rayhan Ahmed",
       "Rayhan Ahmed Bijoy",
-      "Rayhan Ahmed Bangladesh",
       "personal branding agency Dhaka",
     ],
     ogImage: "https://rayhandigitalhub.vercel.app/rayhan-profile.jpg",
