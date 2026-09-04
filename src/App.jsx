@@ -2775,7 +2775,7 @@ function Contact({ isDark }) {
                   Location
                 </p>
                 <p className={"text-sm font-bold " + (isDark ? "text-white" : "text-neutral-900")}>
-                  {siteConfig.contact.address.line1}, {siteConfig.contact.address.line2}
+                  Bangladesh-based, serving clients worldwide remotely
                 </p>
                 <p className={"mt-0.5 text-xs " + (isDark ? "text-neutral-500" : "text-neutral-500")}>
                   {siteConfig.contact.address.remoteNote}
@@ -2806,72 +2806,6 @@ function Contact({ isDark }) {
                 <p className={"mt-0.5 text-xs " + (isDark ? "text-neutral-500" : "text-neutral-500")}>
                   {siteConfig.contact.closedNote} · {siteConfig.contact.responseTime}
                 </p>
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.5, delay: 0.36, ease: "easeOut" }}
-              className={
-                "relative overflow-hidden rounded-2xl border shadow-sm " +
-                (isDark ? "border-neutral-800" : "border-neutral-200")
-              }
-            >
-              {/* siteConfig.contact.address.mapConnected === false means this
-                  is a query-based embed (approximate pin), not yet a verified
-                  Google Business Profile embed. Swap mapEmbedSrc for the
-                  verified "share > embed a map" URL and flip mapConnected to
-                  true once the business location is claimed on Google Maps. */}
-              {!siteConfig.contact.address.mapConnected && (
-                <span
-                  className={
-                    "absolute right-3 top-3 z-10 rounded-full border px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide backdrop-blur-md " +
-                    (isDark ? "border-neutral-700 bg-neutral-900/80 text-neutral-300" : "border-neutral-200 bg-white/85 text-neutral-600")
-                  }
-                >
-                  Map pin pending verification
-                </span>
-              )}
-              <iframe
-                title={siteConfig.brand.business + " location on Google Maps"}
-                src={siteConfig.contact.address.mapEmbedSrc}
-                className="h-48 w-full grayscale-[40%] transition-all duration-300 hover:grayscale-0"
-                style={{ border: 0 }}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-              <div
-                className={
-                  "flex items-center justify-between gap-2 border-t px-4 py-2.5 text-xs font-semibold " +
-                  (isDark ? "border-neutral-800 bg-neutral-900" : "border-neutral-200 bg-white")
-                }
-              >
-                <a
-                  href={siteConfig.contact.address.directionsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={
-                    "inline-flex items-center gap-1.5 transition-colors hover:text-amber-700 " +
-                    (isDark ? "text-neutral-300" : "text-neutral-700")
-                  }
-                >
-                  <ArrowUpRight className="h-3.5 w-3.5" />
-                  Get Directions
-                </a>
-                <a
-                  href={siteConfig.contact.address.openInMapsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={
-                    "inline-flex items-center gap-1.5 transition-colors hover:text-amber-700 " +
-                    (isDark ? "text-neutral-300" : "text-neutral-700")
-                  }
-                >
-                  <ExternalLink className="h-3.5 w-3.5" />
-                  Open in Google Maps
-                </a>
               </div>
             </motion.div>
 
