@@ -254,12 +254,6 @@ function Seo() {
       image: seo.ogImage,
       email: contact.email,
       telephone: contact.phoneHref,
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: contact.address.locality,
-        addressRegion: contact.address.region,
-        addressCountry: contact.address.countryCode,
-      },
       worksFor: {
         "@type": "Organization",
         name: brand.business,
@@ -287,46 +281,8 @@ function Seo() {
       sameAs: socials.map((s) => s.href),
     });
 
-    // LocalBusiness schema — powers map-pin / "near me" rich results:
-    // address, geo-coordinates, and a click-to-call phone number.
-    upsertJsonLd("schema-local-business", {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      name: brand.business,
-      image: seo.ogImage,
-      url: seo.siteUrl,
-      email: contact.email,
-      telephone: contact.phoneHref,
-      priceRange: "$$",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: contact.address.line1,
-        addressLocality: contact.address.locality,
-        addressRegion: contact.address.region,
-        postalCode: contact.address.postalCode,
-        addressCountry: contact.address.countryCode,
-      },
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: contact.address.lat,
-        longitude: contact.address.lng,
-      },
-      areaServed: "Worldwide (remote)",
-      openingHoursSpecification: {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: [
-          "Saturday",
-          "Sunday",
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-        ],
-        opens: "10:00",
-        closes: "19:00",
-      },
-      sameAs: socials.map((s) => s.href),
-    });
+    // No LocalBusiness schema: this is a worldwide remote service and no
+    // public street address has been verified for search markup.
 
     // FAQPage schema — sourced from the same siteConfig.faqs list that
     // renders the FAQ section, so questions/answers can never drift
