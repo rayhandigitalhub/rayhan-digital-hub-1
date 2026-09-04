@@ -12,7 +12,7 @@
 export const siteConfig = {
   brand: {
     name: "Rayhan Ahmed Bijoy",
-    alternateNames: ["Rayhan Ahmed Bijoy"],
+    alternateNames: ["Rayhan", "Rayhan Ahmed", "Rayhan Ahmed Bijoy"],
     business: "Rayhan Digital Hub",
     initials: "RA",
     roles: [
@@ -132,7 +132,7 @@ export const siteConfig = {
       "Rayhan Ahmed Bijoy",
       "personal branding agency Dhaka",
     ],
-    ogImage: "https://rayhandigitalhub.vercel.app/rayhan-profile.jpg",
+    ogImage: "https://rayhandigitalhub.vercel.app/og-image.jpg",
     twitterHandle: "@rayhandigitalhub",
     locale: "en_US",
     themeColor: "#f59e0b",
