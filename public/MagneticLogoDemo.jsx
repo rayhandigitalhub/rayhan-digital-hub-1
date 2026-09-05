@@ -61,7 +61,7 @@ function MagneticLogo({
   spring = 0.08,
   gap = 4,
   className = "",
-  ariaLabel = "Rayhan Digital Hub logo",
+  ariaLabel = "Rayhan Ahmed Bijoy logo",
 }) {
   const canvasRef = useRef(null);
   const containerRef = useRef(null);
