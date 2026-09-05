@@ -1,4 +1,4 @@
-# Rayhan Digital Hub — Website
+# Rayhan Ahmed Bijoy — Website
 
 React + Vite + Tailwind দিয়ে বানানো ওয়ানপেজ পোর্টফোলিও/এজেন্সি সাইট। এই ফোল্ডারটাই সম্পূর্ণ deploy-ready প্রজেক্ট — নিচের ধাপগুলো ফলো করলেই লাইভ হয়ে যাবে।
 
