@@ -13,7 +13,7 @@ export const siteConfig = {
   brand: {
     name: "Rayhan Ahmed Bijoy",
     alternateNames: ["Rayhan", "Rayhan Ahmed", "Rayhan Ahmed Bijoy"],
-    business: "Rayhan Digital Hub",
+    business: "Rayhan Ahmed Bijoy",
     initials: "RA",
     roles: [
       "SEO Expert",
@@ -24,7 +24,7 @@ export const siteConfig = {
     shortPitch:
       "I plan and run SEO, paid media, and social strategy for brands that are done guessing. Every campaign is built around one question: does this move pipeline, not just impressions.",
     longBio:
-      "I'm Rayhan Ahmed Bijoy, founder of Rayhan Digital Hub and a Bangladesh-based digital marketing specialist. I focus on SEO, paid advertising, social media marketing, and personal branding to help businesses and personal brands grow online with clear, practical strategy.",
+      "I'm Rayhan Ahmed Bijoy, digital marketing specialist and a Bangladesh-based digital marketing specialist. I focus on SEO, paid advertising, social media marketing, and personal branding to help businesses and personal brands grow online with clear, practical strategy.",
   },
 
   // -------------------------------------------------------------------
@@ -35,8 +35,8 @@ export const siteConfig = {
   contact: {
     email: "info@digitalhub.com",
     phoneDisplay: "+880 18654-16597",
-    phoneHref: "+880 18654-16597",
-    whatsappNumber: "+880 18654-16597",
+    phoneHref: "+8801865416597",
+    whatsappNumber: "8801865416597",
     whatsappDisplay: "+880 18654-16597",
     address: {
       line1: "Bangladesh-based",
@@ -83,7 +83,7 @@ export const siteConfig = {
       key: "youtube",
       label: "YouTube",
       handle: "RAYHAN AHMED BIJOY",
-      href: "https://www.youtube.com/@Rayhanahmedbijoy55",
+      href: "https://www.youtube.com/@RAYHAN-AHMED-YT",
     },
     {
       key: "github",
@@ -94,8 +94,8 @@ export const siteConfig = {
     {
       key: "whatsapp",
       label: "WhatsApp",
-      handle: "+880 1712-345678",
-      href: "https://wa.me/8801712345678",
+      handle: "+880 18654-16597",
+      href: "https://wa.me/8801865416597",
     },
   ],
 
@@ -120,12 +120,12 @@ export const siteConfig = {
     title:
       "Rayhan Ahmed Bijoy | SEO Expert & Digital Marketing Specialist",
     description:
-      "Rayhan Ahmed Bijoy is the founder of Rayhan Digital Hub and a digital marketing specialist helping brands and personal brands grow through SEO, paid ads, and social media strategy.",
+      "Rayhan Ahmed Bijoy is a digital marketing specialist helping brands and personal brands grow through SEO, paid ads, and social media strategy.",
     keywords: [
       "SEO expert Dhaka",
       "digital marketing specialist Bangladesh",
       "social media marketing specialist",
-      "Rayhan Digital Hub",
+      "Rayhan Ahmed Bijoy",
       "Rayhan Ahmed Bijoy",
       "personal branding agency Dhaka",
     ],
