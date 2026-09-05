@@ -433,7 +433,7 @@ function Navbar({ isDark, onToggleDark }) {
             {siteConfig.brand.name}
           </span>
           <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-amber-700">
-            Founder, {siteConfig.brand.business}
+            Digital marketing specialist
           </span>
         </a>
 
@@ -558,7 +558,7 @@ function Navbar({ isDark, onToggleDark }) {
                     {siteConfig.brand.name}
                   </span>
                   <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-amber-700">
-                    Founder, {siteConfig.brand.business}
+                    Digital marketing specialist
                   </span>
                 </div>
                 <button
@@ -769,7 +769,7 @@ function Hero({ isDark }) {
                 (isDark ? "text-neutral-200" : "text-neutral-800")
               }
             >
-              {siteConfig.brand.name} — Founder, {siteConfig.brand.business}
+              {siteConfig.brand.name} — Digital marketing specialist
             </span>
           </motion.div>
 
@@ -1787,7 +1787,7 @@ const SKILLS = [
 
 const TIMELINE = [
   { year: "2019", title: "Started freelancing in digital marketing", description: "Took on my first small-business clients while learning SEO and paid ads hands-on." },
-  { year: "2021", title: "Founded Rayhan Digital Hub", description: "Turned freelance work into a dedicated digital marketing practice." },
+  { year: "2021", title: "Built a practical digital marketing practice", description: "Turned freelance work into a dedicated digital marketing practice." },
   { year: "2022", title: "Crossed 50 client projects", description: "Expanded into social media marketing and personal branding services." },
   { year: "2023", title: "Google Ads & Meta Blueprint certified", description: "Formalized paid-media expertise across Search, Display, and Meta platforms." },
   { year: "2025", title: "10,000+ leads generated for clients", description: "Reached a career milestone across combined SEO and paid-ads campaigns." },
@@ -1868,7 +1868,7 @@ function About({ isDark }) {
               </div>
               <div>
                 <p className={"font-bold " + (isDark ? "text-white" : "text-neutral-900")}>{siteConfig.brand.name}</p>
-                <p className={"text-sm " + (isDark ? "text-neutral-400" : "text-neutral-500")}>Founder, {siteConfig.brand.business}</p>
+                <p className={"text-sm " + (isDark ? "text-neutral-400" : "text-neutral-500")}>Digital marketing specialist</p>
               </div>
             </motion.div>
 
